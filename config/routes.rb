@@ -14,4 +14,6 @@ Rails.application.routes.draw do
       get :pawsome
     end
   end
+
+  resources :contacts, only: [:new, :create]
 end
