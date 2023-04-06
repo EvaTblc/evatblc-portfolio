@@ -1,12 +1,16 @@
-.navbar-lewagon {
+.navbar-portfolio{
   justify-content: space-between;
-  background: white;
+  background: $beige;
+  font-size: 20px;
+  box-shadow: 1px 5px 5px $brown-beige;
+  height: 50px;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-portfolio .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-portfolio .navbar-brand img {
   width: 40px;
+  margin-left: 10px;
 }

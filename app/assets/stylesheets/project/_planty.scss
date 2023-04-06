@@ -1,0 +1,43 @@
+h1 {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  color: $brick;
+  font-family: $h1;
+  font-size: 60px;
+  letter-spacing: 0.06em;
+  text-shadow: 4px 4px 0px $cream, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  transition: color 0.5sec ease-in-out infinite;
+}
+
+.card-plantysecrets {
+  display: flex;
+  justify-content: center;
+}
+
+.card-plantysecrets-img {
+  height: 490px;
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.card-infoplanty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+
+.card-techplanty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+
+.card-linkplanty {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+}

@@ -1,0 +1,90 @@
+.title-project {
+	text-align: center;
+  margin-top: 10px;
+	h1 {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    color: $brick;
+    font-family: $h1;
+    font-size: 60px;
+    letter-spacing: 0.06em;
+    text-shadow: 4px 4px 0px $cream, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    transition: color 0.5sec ease-in-out infinite;
+	}
+}
+
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.card-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 16px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.504);
+
+
+.cards-title {
+  background-color: $white;
+  position: absolute;
+  top: 185px;
+  border-radius: 10px;
+  width: 300px;
+  height: 65px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.504);
+  transition: 0.4s;
+    h4 {
+      margin-left: 30px;
+      margin-top: 10px;
+      font-family: $h1;
+      color: $brick;
+      text-shadow:
+      0 1px 0 #ccc,
+      0 2px 0 #acacac,
+      0 3px 0 #a0a0a0,
+      0 4px 0 #9b9a9a,
+      0 5px 0 #888787,
+      0 6px 1px rgba(var(--couleur),.1),
+      0 0 5px rgba(var(--couleur),.1),
+      0 1px 3px rgba(var(--couleur),.3),
+      0 3px 5px rgba(var(--couleur),.3),
+      0 5px 10px rgba(var(--couleur),.25),
+      0 10px 10px rgba(var(--couleur),.2),
+      0 20px 20px rgba(var(--couleur),.15);
+    }
+    p {
+      color: transparent;
+    }
+  }
+}
+
+.cards-title:hover {
+  padding-bottom: 30px;
+  height: 125px;
+  border-radius: 10px 10px 10px 10px ;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.504);
+  p {
+    color: $black;
+    margin-left: 30px;
+    margin-right: 30px;
+    .strong{
+      color: $brick;
+    }
+  }
+}
+.project-img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}

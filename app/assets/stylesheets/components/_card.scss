@@ -1,0 +1,52 @@
+.card {
+  display:grid;
+  background: transparent;
+  border: transparent;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-category {
+  background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('card-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $light-gray;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow:0px 0px 10px $peach;
+  transition: 0.4s;
+}
+
+#project:hover {
+  transition: 0.4s;
+  background-size: cover;
+  background-position: center;
+  color: $pink;
+  background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('planty-banner.jpg');
+}
+
+#contact:hover {
+  transition: 0.4s;
+  background-size: cover;
+  background-position: center;
+  color: $pink;
+  background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('cardbanner-hover.jpg');
+}
+
+#personal:hover{
+  transition: 0.4s;
+  background-size: cover;
+  background-position: center;
+  color: $pink;
+  background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('personnalbanner.jpg');
+}
