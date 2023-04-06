@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="info d-flex">
+    <div class="title">
+        <h1><strong>Eva Touboulic</strong></h1>
+        <p>Développeuse Web Fullstack Junior</p>
+    </div>
+    <%= image_tag "avatar.jpg", alt: "avatar", class: "photo" %>
+  </div>
+</div>
+
+<div class="card">
+
+  <%= link_to personal_pages_path do %>
+    <div id="personal" class="card-category">
+      Qui suis-je ?
+    </div>
+  <% end %>
+
+  <%= link_to projects_path do %>
+    <div id="project" class="card-category">
+      Mes projets
+    </div>
+  <% end %>
+
+  <%= link_to contact_pages_path do %>
+    <div id ="contact" class="card-category">
+      Contactez-moi !
+    </div>
+  <% end %>
+</div>

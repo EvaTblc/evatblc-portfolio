@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="title-project">
+    <h1>Mes Projets</h1>
+  </div>
+
+  <div class="card-project">
+    <div class="cards">
+      <%= link_to planty_projects_path do %>
+        <%= image_tag "plante.jpg", class:"project-img" %>
+        <div class="cards-title">
+          <h4>Planty Secrets</h4>
+          <p>Une application de reconnaissance de plantes <em>(mais pas que !)</em><br>
+          <strong class="strong">Cliquez-ici pour en découvrir plus !</strong></p>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="cards">
+      <%= link_to pawsome_projects_path do %>
+        <%= image_tag "dino.jpg", class:"project-img" %>
+        <div class="cards-title">
+          <h4>Pawsome</h4>
+          <p>Un projet <em>(pas sérieux)</em> sur le thème d'AirBnb.<br>
+          <strong class="strong">Cliquez-ici pour en découvrir plus !</strong></p>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
