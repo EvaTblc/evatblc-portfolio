@@ -1,13 +1,4 @@
-.titlepawsome {
-  display: flex;
-  .back {
-    margin-top: 90px;
-    margin-left: 155px;
-  }
-  h1 {
-    padding-left: 110px;
-  }
-}
+// Lié au fichier SCSS projects_components
 
 .card-pawsome {
   display: flex;
@@ -36,4 +27,9 @@
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 40px;
+  a {
+    margin-top: 10px;
+    color: $brick;
+    text-align: center;
+  }
 }
