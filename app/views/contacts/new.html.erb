@@ -1,23 +1,12 @@
 <div class="container">
   <h1>Contactez-moi !</h1>
-  <%= form_for @contact do |f| %>
-    <div class="col-md-6">
-      <%= f.label :name %></br>
-      <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :email %></br>
-      <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
-
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
-            placeholder: "Corps du message"%></br>
-
-      <div class= "d-none">
-        <%= f.label :nickname %>
-        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
-      </div>
-
-      <%= f.submit 'Envoyer', class: 'btn btn-primary' %>
-    </div>
-  <% end %>
+  <div class="form-contact">
+    <script>
+      hbspt.forms.create({
+        region: "eu1",
+        portalId: "27217975",
+        formId: "00c131f5-a142-4a20-aedc-7163c05fd63d"
+      });
+    </script>
+  </div>
 </div>

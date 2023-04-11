@@ -1,0 +1,27 @@
+h1 {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  color: $brick;
+  font-family: $h1;
+  font-size: 60px;
+  letter-spacing: 0.06em;
+  text-shadow: 4px 4px 0px $cream, 7px 7px 0px rgba(0, 0, 0, 0.2);
+  transition: color 0.5sec ease-in-out infinite;
+}
+
+.form-contact {
+  background: $brown-beige;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: 2px 5px $peach;
+  margin: 50px;
+  padding: 20px;
+}
+
+.hs-button {
+  display: flex;
+  justify-content: center;
+  background-color: $brick;
+}
