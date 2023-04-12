@@ -2,19 +2,11 @@ body {
   background-color: $white;
   background-size: 26px 26px;
   background-image:  repeating-linear-gradient(to right, $beige, $beige 1.3px, $white 1.3px, $white);
-}
-
-a {
-  text-decoration: none;
-  width: 300px;
-}
-
-.info {
-  justify-content: space-around;
-  margin-bottom: 30px;
+  height: 100%;
 }
 
 .title {
+  width: 500px;
   margin-top: 10rem;
   margin-left: 1rem;
   padding: 10px;
@@ -29,10 +21,21 @@ a {
   }
 
   p{
-    font-size: 25px;
+    font-size: 30px;
     color: $pink;
   }
 }
+
+a {
+  text-decoration: none;
+  width: 300px;
+}
+
+.info {
+  justify-content: space-between;
+  // margin-bottom: 30px;
+}
+
 
 @keyframes float {
   0% {
