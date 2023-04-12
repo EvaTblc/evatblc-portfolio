@@ -2,7 +2,6 @@ body {
   background-color: $white;
   background-size: 26px 26px;
   background-image:  repeating-linear-gradient(to right, $beige, $beige 1.3px, $white 1.3px, $white);
-  height: 100%;
 }
 
 .title {
@@ -34,6 +33,17 @@ a {
 .info {
   justify-content: space-between;
   // margin-bottom: 30px;
+}
+
+.cardpages {
+  display:grid;
+  background: transparent;
+  border: transparent;
+  justify-content: space-around;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 20rem;
+  align-items: center;
 }
 
 
