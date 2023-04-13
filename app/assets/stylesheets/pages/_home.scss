@@ -76,7 +76,7 @@ a {
 }
 
 @media (min-width: 390px) {
-  .card {
+  .cardshome {
     grid-template-columns: 1fr;
   }
   .photo {
@@ -85,7 +85,7 @@ a {
 }
 
 @media (min-width: 760px) {
-  .card {
+  .cardshome {
     grid-template-columns: 1fr 1fr;
   }
   .photo {
@@ -94,7 +94,7 @@ a {
 }
 
 @media (min-width: 910px) {
-  .card {
+  .cardshome {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .photo {
@@ -103,7 +103,7 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-  .card {
+  .cardshome {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .photo {
