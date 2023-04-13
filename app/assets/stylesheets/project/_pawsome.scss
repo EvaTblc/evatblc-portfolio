@@ -51,6 +51,16 @@
   align-items: center;
 }
 
+.logotech {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  .postgresqllogo {
+    height: 115px;
+  }
+}
+
+
 @media (min-width: 390px) {
   .titleproject {
     padding-left: 0px;
@@ -58,6 +68,9 @@
   }
   .card-pawsome-img {
     display: none;
+  }
+  .logotech {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -69,15 +82,20 @@
   .card-pawsome-img {
     display: none;
   }
+  .logotech {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 910px) {
   .titleproject {
-
     justify-content: center;
   }
   .card-pawsome-img {
     display: block;
+  }
+  .logotech {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -87,5 +105,8 @@
   }
   .card-pawsome-img {
     display: block;
+  }
+  .logotech {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
