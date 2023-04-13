@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="info d-flex">
+  <div class="header">
     <div class="title">
         <h1><strong>Eva Touboulic</strong></h1>
         <p><span data-controller="typed-js"></span></p>
@@ -8,22 +8,22 @@
   </div>
 </div>
 
-<div class="cardpages">
+<div class="cardshome">
 
   <%= link_to personal_pages_path do %>
-    <div id="personal" class="card-category">
+    <div id="personal" class="card-btnhome">
       Qui suis-je ?
     </div>
   <% end %>
 
   <%= link_to projects_path do %>
-    <div id="project" class="card-category">
+    <div id="project" class="card-btnhome">
       Mes projets
     </div>
   <% end %>
 
   <%= link_to new_contact_path do %>
-    <div id ="contact" class="card-category">
+    <div id ="contact" class="card-btnhome">
       Contactez-moi !
     </div>
   <% end %>

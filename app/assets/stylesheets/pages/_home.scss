@@ -6,7 +6,7 @@ body {
 
 .title {
   width: 500px;
-  margin-top: 10rem;
+  margin-top: 13rem;
   margin-left: 1rem;
   padding: 10px;
 
@@ -30,19 +30,19 @@ a {
   width: 300px;
 }
 
-.info {
-  justify-content: space-between;
-  // margin-bottom: 30px;
+.header {
+  display: flex;
+  justify-content: space-around;
 }
 
-.cardpages {
+.cardshome {
   display:grid;
   background: transparent;
   border: transparent;
   justify-content: space-around;
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 20rem;
+  height: 17rem;
   align-items: center;
 }
 

@@ -1,4 +1,4 @@
-.card {
+.cardshome {
   display:grid;
   background: transparent;
   border: transparent;
@@ -8,7 +8,7 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card-category {
+.card-btnhome {
   background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('card-banner.jpg');
   background-size: cover;
   background-position: center;
@@ -34,6 +34,10 @@
   color: $pink;
   background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('planty-banner.jpg');
 }
+#project:hover::before {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
 
 #contact:hover {
   transition: 0.4s;
@@ -41,6 +45,7 @@
   background-position: center;
   color: $pink;
   background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('cardbanner-hover.jpg');
+  transition-property: background-image, color;
 }
 
 #personal:hover{
@@ -49,4 +54,5 @@
   background-position: center;
   color: $pink;
   background-image: linear-gradient(rgba(105, 105, 105, 0.068), rgba(105, 105, 105, 0.068)), url('personnalbanner.jpg');
+  transition-property: background-image, color;
 }

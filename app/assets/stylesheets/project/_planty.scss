@@ -24,18 +24,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.sectiontechplanty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -45px;
 }
 
 .card-linkplanty {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 40px;
-  a {
-    margin-top: 10px;
+  margin: 0px;
+  #linkplanty {
+    margin-bottom: 10px;
     color: $brick;
     text-align: center;
+    background-color: $brown-beige;
+    padding: 5px;
+    border-radius: 5px;
+    width: 360px;
   }
 }
 
