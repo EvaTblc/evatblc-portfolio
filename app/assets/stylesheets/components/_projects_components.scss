@@ -1,13 +1,6 @@
-.titleproject {
-  display: flex;
-  .back {
-    margin-top: 90px;
-    margin-left: 155px;
-  }
 
   h1 {
     margin: 50px;
-    padding-left: 110px;
     display: flex;
     color: $brick;
     font-family: $h1;
@@ -16,7 +9,6 @@
     text-shadow: 4px 4px 0px $cream, 7px 7px 0px rgba(0, 0, 0, 0.2);
     transition: color 0.5sec ease-in-out infinite;
   }
-}
 
 .logotech {
   display: flex;

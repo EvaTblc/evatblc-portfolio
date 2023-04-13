@@ -1,4 +1,12 @@
 // Lié au fichier SCSS projects_components
+.titleproject {
+  display: flex;
+  justify-content: flex-start;
+  .back {
+    margin-top: 90px;
+    margin-left: 155px;
+  }
+}
 
 .card-pawsome {
   display: flex;
@@ -41,4 +49,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 390px) {
+  .titleproject {
+    padding-left: 0px;
+    justify-content: flex-end;
+  }
+  .card-pawsome-img {
+    display: none;
+  }
+}
+
+@media (min-width: 760px) {
+  .titleproject {
+    padding-left: 0px;
+    justify-content: flex-end;
+  }
+  .card-pawsome-img {
+    display: none;
+  }
+}
+
+@media (min-width: 910px) {
+  .titleproject {
+
+    justify-content: center;
+  }
+  .card-pawsome-img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .titleproject {
+    justify-content: center;
+  }
+  .card-pawsome-img {
+    display: block;
+  }
 }

@@ -1,4 +1,12 @@
 // Lié au fichier SCSS projects_components
+.titleproject {
+  display: flex;
+  justify-content: flex-start;
+  .back {
+    margin-top: 90px;
+    margin-left: 155px;
+  }
+}
 
 .card-plantysecrets {
   display: flex;
@@ -10,6 +18,7 @@
   border-radius: 10px;
   margin-left: 50px;
   box-shadow: 5px 10px 5px $cream;
+  opacity: 1;
 }
 
 .card-infoplanty {
@@ -43,7 +52,7 @@
   .soustitre {
     margin-top: 10px;
   }
-  
+
   #linkplanty {
     margin-bottom: 10px;
     color: $brick;
@@ -57,4 +66,43 @@
 
 .pplanty {
   font-size: 18px;;
+}
+
+@media (min-width: 390px) {
+  .titleproject {
+    padding-left: 0px;
+    justify-content: flex-end;
+  }
+  .card-plantysecrets-img {
+    display: none;
+  }
+}
+
+@media (min-width: 760px) {
+  .titleproject {
+    padding-left: 0px;
+    justify-content: flex-end;
+  }
+  .card-plantysecrets-img {
+    display: none;
+  }
+}
+
+@media (min-width: 910px) {
+  .titleproject {
+
+    justify-content: center;
+  }
+  .card-plantysecrets-img {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .titleproject {
+    justify-content: center;
+  }
+  .card-plantysecrets-img {
+    display: block;
+  }
 }
