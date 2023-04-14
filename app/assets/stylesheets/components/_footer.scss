@@ -1,0 +1,37 @@
+.footer {
+  margin-top: auto;
+  background: $beige;
+  box-shadow: 1px 5px 5px $brown-beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  width: 100%;
+  clear: both;
+}
+
+.footer-links {
+  width:25%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.footer-links a {
+  color: $brick;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.linklegalmention {
+  color: $brick;
+}
+
+// rgba(239, 191, 133, 0.3);

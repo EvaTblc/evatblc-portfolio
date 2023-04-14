@@ -1,4 +1,13 @@
 // Lié au fichier SCSS cards_index
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 .title-index {
 	text-align: center;

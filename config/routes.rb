@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :pages, only: [:index] do
     collection do
       get :personal
-      get :contact
+      get :mention
     end
   end
 
