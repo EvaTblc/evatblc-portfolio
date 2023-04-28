@@ -1,30 +1,11 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-portfolio">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <%= image_tag "logo.jpg", alt: "logo" %>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav m-2">
-        <li class="nav-item active me-3">
-          <%= link_to personal_pages_path do %>
-            <i class="fa-solid fa-user" style="color: #B03D30;"></i>
-          <% end %>
-        </li>
-        <li class="nav-item me-3">
-          <%= link_to projects_path do %>
-            <i class="fa-solid fa-briefcase" style="color: #B03D30;"></i>
-          <% end %>
-        </li>
-        <li class="nav-item me-3">
-          <%= link_to new_contact_path do %>
-            <i class="fa-solid fa-envelope" style="color: #B03D30;"></i>
-          <% end %>
-        </li>
-      </ul>
+<nav class="nav-horizontal">
+  <div class="mask">
+    <%= image_tag "logo.jpg", alt: "logo", class:"logo" %>
+    <div class="list">
+      <a href="#" class="nav-btn">Accueil</a>
+      <a href="#" class="nav-btn">Qui suis-je ?</a>
+      <a href="#" class="nav-btn">Mes projets</a>
+      <a href="#" class="nav-btn">Contactez-moi</a>
     </div>
   </div>
-</div>
+</nav>

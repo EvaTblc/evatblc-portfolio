@@ -1,16 +1,38 @@
-.navbar-portfolio{
-  justify-content: space-between;
-  background: $beige;
-  font-size: 20px;
-  box-shadow: 1px 5px 5px $brown-beige;
-  height: 50px;
-}
+.nav-horizontal {
+  background-color: $brown-beige;
+  overflow: hidden;
+  height: 3em;
+  width: 100%;
 
-.navbar-portfolio .navbar-collapse {
-  flex-grow: 0;
-}
+  .mask {
+    display:flex;
+    height: 5em;
+    width: 100%;
+    overflow-x: auto;
+  }
 
-.navbar-portfolio .navbar-brand img {
-  width: 40px;
-  margin-left: 10px;
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .list {
+    margin: 0 auto;
+    max-width: 100%;
+
+    .nav-btn {
+      justify-content: flex-end;
+      padding: 10px 50px;
+      text-decoration: none;
+      color: #333;
+      height: 10px;
+      line-height: 3;
+      &:hover {
+        border-bottom: 2px solid $pink;
+        background-color: $peach;
+      }
+    }
+  }
 }

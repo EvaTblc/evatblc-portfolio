@@ -76,9 +76,10 @@ a {
   animation: float 6s ease-in-out infinite;
 }
 
-@media (min-width: 390px) {
+@media (min-width: 375px) {
   .cardshome {
     grid-template-columns: 1fr;
+    position: relative;
   }
   .photo {
     opacity: 0;
@@ -88,6 +89,7 @@ a {
 @media (min-width: 760px) {
   .cardshome {
     grid-template-columns: 1fr 1fr;
+    position: relative;
   }
   .photo {
     opacity: 0;
@@ -97,6 +99,7 @@ a {
 @media (min-width: 910px) {
   .cardshome {
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
   }
   .photo {
     opacity: 0;
